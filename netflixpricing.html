@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Sono:wght@400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: 'Sono', sans-serif;
+        }
+
+        .pricing-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            gap: 2rem;
+        }
+
+        .pricing-plan {
+            flex: 1;
+            max-width: 300px;
+            padding: 20px;
+            background-color: gray;
+            opacity: 0.8;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .baslik {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .icerik {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .icerik {
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            color: white;
+            background-color: red;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        @media (max-width:1090px) {
+            .pricing-container {
+                flex-direction: column;
+
+                height: 100%;
+            }
+            
+
+        }
+    </style>
+</head>
+
+<body background="./arkaplan.jpg">
+    <div class=" pricing-container ">
+
+        <!-- paket fiyatlari ile ilgili bir proje -->
+
+        <div class="pricing-plan">
+            <div class="baslik">
+                <h2>Basic</h2>
+            </div>
+            <div class="Price" style="font-size: 20px;">
+                <h1>$11.99/month</h1>
+            </div>
+            <ul class="icerik">
+                <li>✅ 20GB Storage</li>
+                <li>🚫Support</li>
+                <li>✅ 1 User</li>
+            </ul>
+            <button class="btn">Sign Up</button>
+        </div>
+
+        <div class="pricing-plan">
+            <div class="baslik">
+                <h2>Standart</h2>
+            </div>
+            <div class="Price" style="font-size: 20px;">
+                <h1>$19.99/month</h1>
+            </div>
+            <ul class="icerik">
+                <li>✅ 30GB Storage</li>
+                <li>✅ Phone & Email Support</li>
+                <li>✅ 3 User</li>
+            </ul>
+            <button class="btn">Sign Up</button>
+        </div>
+
+        <div class="pricing-plan">
+            <div class="baslik">
+                <h2>Premium</h2>
+            </div>
+            <div class="Price" style="font-size: 20px;">
+                <h1>$29.99/month</h1>
+            </div>
+            <ul class="icerik">
+                <li>✅ 100GB Storage</li>
+                <li>✅ 24/7 Phone Support</li>
+                <li>✅ 5 User</li>
+            </ul>
+            <button class="btn">Sign Up</button>
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+</body>
+
+</html>
